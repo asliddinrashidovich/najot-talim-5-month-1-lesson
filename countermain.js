@@ -1,7 +1,11 @@
-const count = document.getElementById('count');
+import { decreaseFunc } from "./countfuntion.js";
+import { increaseFunc } from "./countfuntion.js";
+import { resetFunc } from "./countfuntion.js";
+
 const decrease = document.getElementById('decrease');
 const increase = document.getElementById('increase');
 const reset = document.getElementById('reset');
+
 
 let i = 0;
 
